@@ -1,0 +1,180 @@
+body{
+    background-color: whitesmoke;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 6fr 0.8fr;
+    align-content: center;
+    align-items: center;
+    padding:0.2rem 3rem 3rem 3rem;
+}
+.head h1{
+text-align: center;
+font-style: oblique;
+font-size: 3rem;
+color: orangered
+}
+.container{
+ display: flex;
+justify-content: space-between;
+column-gap: 3rem;
+margin-top: -3rem;
+}
+.container div{
+    width: 300px;
+    height: 80vh;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 3px violet;
+    overflow-y: scroll;
+}
+.container div::-webkit-scrollbar{
+    width: 10px;
+}
+.container div::-webkit-scrollbar-track{
+    background-color: lightcoral;
+}
+.container div::-webkit-scrollbar-thumb{
+    background-color: purple;
+    border-radius: 15px;
+}
+.allSong{
+ padding: 1rem;
+}
+.card{
+    flex:2;
+}
+.filterGenre{
+    padding: 0.2rem;
+    border: violet 2px solid;
+    border-radius: 10px;
+    margin-left: 3rem;
+    background-color: lightgreen;
+}
+.allSong h4{
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+}
+.playlistSong{
+    margin-top: 1rem;
+    width:80%;
+    background-color: palevioletred;
+    color: black;
+    font-weight: 600;
+   margin-bottom: 0.575rem;
+   margin-left: 2rem;
+   border-radius: 1rem;
+   border-color: brown;
+}
+.allSongDivBtn{
+    /* margin: 1rem; */
+    width:80%;
+    background-color: palevioletred;
+    color: black;
+    font-weight: 600;
+   margin-bottom: 0.575rem;
+   margin-left: 2rem;
+   border-radius: 1rem;
+   border-color: brown;
+}
+.allSongDivBtn:hover{
+    background-color: limegreen;
+    cursor: grab;
+}
+.songImg{
+    padding: 1rem;
+    border: 10px solid green;
+    margin: 0.2rem 2rem 1rem 2.5rem;
+    border-radius: 25px;
+    width: 80%;
+    height: 14rem;
+    object-fit: cover;
+    
+}
+.card h4{
+    font-style: italic;
+    font-size: larger;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: darkred;
+}
+.card h5{
+    font-style: italic;
+    font-size: medium;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: black;
+}
+.audioSong{
+    margin-top: 1rem;
+    align-self: center;
+     height: 4rem;
+
+}
+.filterSongLabel{
+  margin-left: 4rem;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: palevioletred;
+     
+     }
+
+.rarrow{
+   height: 2rem;
+   width: 3rem;
+   margin-top: -2rem;
+   margin-left:55%;
+   border-radius: 25px;
+   border: dotted brown;
+
+  
+}
+.larrow{
+    height: 2rem;
+    width: 3rem;  
+    margin-top: 1rem;
+    margin-left: 35%;
+    border-radius: 25px;
+   border: dotted brown;
+}
+/* .arrowDiv{
+    box-shadow: none !important;
+    margin-top: -5rem;
+} */
+
+.playlistBtn{
+    margin-top: 1.05rem;
+    width: 60%;
+    align-self: center;
+    border-radius: 20px;
+    background-color: palevioletred;
+    border: 2px dashed brown;
+    color: black;
+    font-weight: 600;
+}
+
+.playlist h4{
+    text-align: center;
+    font-style: oblique;
+    color: darkgreen;
+    margin-top: 0.5rem;
+}
+.playlistPlay{
+    margin-left: 35%;
+    border-radius: 1rem;
+   border-color: brown;
+   width:5rem;
+   background-color: darkcyan;
+   font-weight: 500;
+   display: none;
+
+}
+.playlistPlay:hover{
+    background-color: aquamarine;
+}
+
+
+
